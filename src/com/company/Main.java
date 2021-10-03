@@ -15,10 +15,19 @@ public class Main {
     public void runStore()  {
 
     }
+
+    public void makeOrder()  {
+
+    }
+
+    public void addCustomer()    {
+
+    }
+
     public Customer selectCustomer() {
 
     }
-    public manageCustomer(Customer selectCustomer)    {
+    public String manageCustomer(Customer selectCustomer)    {
 
     }
 
