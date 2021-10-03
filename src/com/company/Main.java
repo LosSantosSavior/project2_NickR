@@ -18,7 +18,7 @@ public class Main {
     public Customer selectCustomer() {
 
     }
-    public manageCustomer(Customer selectedCustomer)    {
+    public manageCustomer(Customer selectCustomer)    {
 
     }
 
