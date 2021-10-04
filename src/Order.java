@@ -3,7 +3,7 @@ public class Order {
     private Customer orderedBy;
 
     public String getDestination()  {
-
+        return;
     }
 
     public String getOrderer()  {
