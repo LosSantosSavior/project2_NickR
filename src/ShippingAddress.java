@@ -6,7 +6,7 @@ public class ShippingAddress {
     private String PostalCode;
 
     public String toString()    {
-        return;
+        return AddressLine1 + AddressLine2 + City + State + PostalCode;
     }
 
     public ShippingAddress(String line1, String line2, String cityName, String stateName, String zipCode)    {
