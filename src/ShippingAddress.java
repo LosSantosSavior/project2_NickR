@@ -5,7 +5,7 @@ public class ShippingAddress {
     private String State;
     private String PostalCode;
 
-    public String toString()    {
+    public String toString()    {       //returns all strings
         return AddressLine1 + AddressLine2 + City + State + PostalCode;
     }
 
