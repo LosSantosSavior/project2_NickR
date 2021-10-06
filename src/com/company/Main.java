@@ -11,13 +11,12 @@ public class Main {
     private ArrayList<Order> Orders;
     private ArrayList<Customer> Customers;
 
-    public static void main(String[] args) throws IOException {
-        var fileName = "store.txt";
-        var allLines = Files.readString(Paths.get(fileName));
+    public static void main(String[] args) {
 
     }
-    public void Store() {
-
+    public void Store() throws IOException {
+        var fileName = "Customers.txt";
+        var allLines = Files.readString(Paths.get(fileName));
     }
     public void runStore()  {
 
