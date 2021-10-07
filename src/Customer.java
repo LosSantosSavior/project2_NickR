@@ -5,6 +5,7 @@ public class Customer {
     private ArrayList<ShippingAddress> Addresses;
     private String Name;
     private int customerID;
+    Scanner reader = new Scanner(System.in);
 
     public String getName() {
         return Name;
@@ -12,6 +13,7 @@ public class Customer {
 
     public ShippingAddress addAddress(ShippingAddress newAddress)  {
         System.out.println("Enter your address:");
+
     }
 
     public Customer customerName(String custName)  {
